@@ -94,6 +94,7 @@
             this.rosMasterIP_TextBox.Name = "rosMasterIP_TextBox";
             this.rosMasterIP_TextBox.Size = new System.Drawing.Size(141, 20);
             this.rosMasterIP_TextBox.TabIndex = 14;
+            this.rosMasterIP_TextBox.TextChanged += new System.EventHandler(this.rosMasterIP_TextBox_TextChanged);
             // 
             // RosTest
             // 
@@ -109,6 +110,7 @@
             this.Controls.Add(this.rosMasterIP_TextBox);
             this.Name = "RosTest";
             this.Text = "ROVENSE";
+            this.Load += new System.EventHandler(this.RosTest_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
