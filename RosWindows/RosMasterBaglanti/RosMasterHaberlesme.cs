@@ -35,7 +35,7 @@ namespace RosWindows.RosMasterBaglanti
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        void BaglantiMetodu()
+        public void BaglantiMetodu()
         {
             try
             {
